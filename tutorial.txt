@@ -1,0 +1,13 @@
+git init 
+
+git clone -- repo url
+
+git add .
+
+git commit -m "message"
+
+git checkout -b main
+
+git branch 
+
+git push origin branch name(main) 
