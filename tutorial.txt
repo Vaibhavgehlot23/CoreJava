@@ -10,4 +10,4 @@ git checkout -b main
 
 git branch 
 
-git push origin branch name(main) 
+git push origin branch name(main) gi
