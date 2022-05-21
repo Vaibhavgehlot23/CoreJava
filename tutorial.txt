@@ -6,8 +6,6 @@ git add .
 
 git commit -m "message"
 
-git checkout -b main
-
 git branch 
 
-git push origin branch name(main) gi
+git push origin main
