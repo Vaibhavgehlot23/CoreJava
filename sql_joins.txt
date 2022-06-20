@@ -1,0 +1,18 @@
+SQL inner join query
+
+mysql> select * from emp right join department on emp.dept_id=department.id;
+ select emp.fname,deprtment.id from emp right join department on emp.dept_id=department.id;
+
+SQL left join query
+
+mysql> select * from emp left join department on emp.dept_id=department.id;
+
+SQL right join query
+
+mysql> select * from emp inner join department on emp.dept_id=department.id;
+
+SQL full outer join
+
+mysql> select * from emp left join department on emp.dept_id= department.id
+    -> union
+    -> select * from emp right join department on emp.dept_id= department.id;
